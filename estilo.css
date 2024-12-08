@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Merge One;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: rgba(20, 18, 18, 0.705); 
+    color: #fff;
+    height: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    gap: 40px; 
+}
+
+header .nav-links {
+    display: flex;
+    list-style: none;
+    gap: 32px; 
+}
+
+header .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 30px;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+header .logo {
+    width: 150px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 50px; 
+}
+
+header .logo img {
+    width: 100%;
+    height: auto;
+}
+
+.capa {
+    background: url(imagens/fundo.png) no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+
+.capa h1 {
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 16px;
+}
+
+.capa button {
+    margin-top: 16px;
+    padding: 12px 24px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px; 
+    font-family: "Montserrat", sans-serif;
+}
+
+.capa button:hover {
+    background: rgba(255, 255, 255, 0.2); 
+}
+
+.portfolio {
+    background-color: rgba(190, 190, 190, 0.83);
+    padding: 32px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: left;
+    color: white;
+}
+
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap: 16px;
+}
+
+.portfolio-item img {
+    width: 270px;
+    height: 350;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.portfolio-item{
+    color: white;
+    font-size: 24px;
+}
+
+.contato {
+    padding: 32px;
+    background-color: hsl(0, 1%, 71%);
+    width: 800px;
+    margin: 32px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contato h1 {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 24px;
+}
+.informacoes{
+    color: white;
+    font-size: 24px;
+}
+.informacoes a{
+    text-decoration: none;
+    color: white;
+}
+
+
+footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 16px;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 8px;
+    text-decoration: none;
+}
+.sobre{
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    background-color: rgba(118, 114, 108, 0.83);
+    padding: 32px;
+    text-align: center;
+    
+}
+.sobre p{  
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+
+}
+.sobre img{
+    display: flex;
+    text-align: left;
+}
+.sobre h2{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-align: left;
+    color: white;
+}
+.sobre-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+.loc{
+    padding: 32px;
+    text-align: center;
+    background-color: rgba(190, 190, 190, 0.83);
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: white;
+}
+.loc address{
+    padding: 15px;
+    margin-top: 16px;
+}
+.mapa img{
+    display: flex;
+    text-align: left;
+    margin: 0 auto;
+    width: 800px;
+}
+.depoimento{
+    background-color: rgba(190, 190, 190, 0.83);
+    padding: 32px;
+    text-align: center;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+}
+.depoimento img{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto; 
+    width: 300px;
+    border-radius: 20%;
+}
